@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+body p {
+    line-height: 2em; /*altura entre linhas*/
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #166fe5;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Estilos para o título */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    background-color: #166fe5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para seções */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#contato h2,
+#contato p {
+    text-align: center;
+}
+
+/* Estilos para links */
+a {
+    color: #166fe5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #0d3c7a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para o formulário */
+form {
+    max-width: 500px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #166fe5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
